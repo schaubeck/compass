@@ -1,0 +1,25 @@
+{
+    "name": "Compass",
+    "description": "",
+    "dependencies": {
+        "core": "*",
+        "radio": "*",
+        "servo": "*",
+        "MakerBit-LCD1602": "github:1010technologies/pxt-makerbit-lcd1602#v1.6.4",
+        "OLED12864_I2C": "github:makecode-extensions/oled12864_i2c#v1.5.0",
+        "SSD1306_OLED": "github:tinkertanker/pxt-oled-ssd1306#v2.0.12",
+        "ssd1306-with-reset": "github:schoumi/ssd1306-with-reset#v0.0.5"
+    },
+    "files": [
+        "main.blocks",
+        "main.ts",
+        "README.md"
+    ],
+    "testFiles": [
+        "test.ts"
+    ],
+    "supportedTargets": [
+        "microbit"
+    ],
+    "preferredEditor": "blocksprj"
+}
